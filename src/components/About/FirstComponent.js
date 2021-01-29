@@ -4,9 +4,11 @@ import DpImage from "../../images/dpimage.png";
 class FirstComponent extends React.Component{
     render(){
         const mainDivStyle = {
-            "margin": "100px auto 100px",
             "color":"black",
             "maxHeight":"821px",
+            "margin": "auto 20px",
+            paddingTop: "90px",
+            paddingBottom: "90px"
         }
         return(
             <div style={mainDivStyle}>

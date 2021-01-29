@@ -1,28 +1,37 @@
 import './App.css';
 import React from "react";
-import NavNar from "./components/NavBar.js";
+import NavBar from "./components/NavBar/NavBar.js";
 import About from './components/About/About.js';
+import Contact from './components/Contact/Contact.js'
+import {Route, BrowserRouter as Router, Switch} from 'react-router-dom'
 
 class App extends React.Component{
   render(){
     return (
-      <div className="mainDiv">
-        <NavNar/>
-        <About/>
-        <div style={{
-          backgroundColor: "white",
-          padding: "5px"
-        }}>
-          <p style={{
-            margin: "auto",
-            fontSize: "20px"
-          }}>My Portfolio</p>
-          <p style={{
-            margin: "auto",
-            fontSize: "13px"
-          }}>Aubrhey Caisip | © 2020</p>
+      <Router>
+        <div className="mainDiv">
+          <NavBar/>
+          <Switch>
+            <Route exact path="/" component={About}/>
+            <Route exact path="/project" component={About}/>
+            <Route exact path="/contact" component={Contact}/>
+          </Switch>
+          <div style={{
+            marginTop: "65px",
+            backgroundColor: "white",
+            padding: "5px"
+          }}>
+            <p style={{
+              margin: "auto",
+              fontSize: "20px"
+            }}>My Portfolio</p>
+            <p style={{
+              margin: "auto",
+              fontSize: "13px"
+            }}>Aubrhey Caisip | © 2020</p>
+          </div>
         </div>
-      </div>
+      </Router>
     );
   }
 }

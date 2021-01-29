@@ -1,0 +1,24 @@
+.contact-div {
+  height: 702px;
+}
+.inner-bar-div {
+  background-color: rgb(43, 174, 102);
+  height: 265px;
+  margin-top: 250px;
+}
+.content-div {
+  margin: auto;
+  width: 42%;
+  margin-top: -376px;
+  border: solid 1px #fff;
+  background-color: #f9f9f970;
+  backdrop-filter: blur(6px);
+  border-radius: 9px;
+  box-shadow: 1px 2px 1px #e6ecea;
+  margin-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: black;
+  max-width: 500px;
+  min-width: 288.953px;
+}
