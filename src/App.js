@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar/NavBar.js";
 import About from './components/About/About.js';
 import Contact from './components/Contact/Contact.js'
 import {Route, BrowserRouter as Router, Switch} from 'react-router-dom'
+import Project from './components/Project/Project.js'
 
 class App extends React.Component{
   render(){
@@ -13,7 +14,7 @@ class App extends React.Component{
           <NavBar/>
           <Switch>
             <Route exact path="/" component={About}/>
-            <Route exact path="/project" component={About}/>
+            <Route exact path="/project" component={Project}/>
             <Route exact path="/contact" component={Contact}/>
           </Switch>
           <div style={{
