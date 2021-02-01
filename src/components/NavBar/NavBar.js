@@ -14,8 +14,10 @@ class NavBar extends React.Component{
     componentDidMount(){
         this.listener = document.addEventListener('scroll', e => {
             var scrolled = document.scrollingElement.scrollTop;
+            var docWidth = window.innerWidth;
             console.log(scrolled);
-            if (scrolled >= 50) {
+            console.log(docWidth);
+            if (scrolled >= 50 && docWidth > 960) {
                 if (this.state.status !== "notTop") {
                   this.setState({ status: "notTop" });
                 }
