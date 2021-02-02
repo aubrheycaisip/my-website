@@ -16,9 +16,7 @@ class Project extends React.Component{
                             backgroundRepeat: 'no-repeat',
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
-                            height: '535px',
-                            width: '85%',
-                            margin: '-530px auto 10px',
+                            margin: '-510px 25px 10px',
                             boxShadow: "1px 2px 1px #E6ECEA",
                             maxWidth: '1224px'
                             }}>
