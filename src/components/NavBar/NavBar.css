@@ -39,6 +39,8 @@
 @media screen and (max-width: 960px) {
   .container-nav {
     position: absolute;
+    overflow: hidden;
+    height: 210px;
   }
   .nav-items {
     top: 63px;
