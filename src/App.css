@@ -1,8 +1,19 @@
+:root{
+  --bgColor: #3aafa9;
+  --fgColor: #def2f1;
+  --textColor: #feffff;
+  --navBgColorActive: #2b7a78;
+
+  --pageBgColor: #17252a;
+}
+
 .mainDiv {
-  background-color: #fcf6f5ff;
+  background-color: var(--fgColor);
   display: flex;
   flex-direction: column;
-  color: #2bae66ff;
+  color: var(--bgColor);
   min-height: 100vh;
   text-align: center;
 }
+
+/* #17252a, #2b7a78, #3aafa9, #def2f1, 	#feffff */

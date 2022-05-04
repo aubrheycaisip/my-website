@@ -1,0 +1,76 @@
+@import "../../App.css";
+
+/* Experience Component */
+.exp-div-container{
+    min-height:700px;
+}
+.exp-bg-div{
+    background-color: var(--bgColor);
+    color:var(--textColor);
+    padding: 5rem 1rem 14rem;
+}
+.exp-inner-bg{
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+    min-width: 273.500px;
+}
+.exp-div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    margin-top: -200px;
+}
+
+/* First Component */
+.first-component{
+    color:black;
+    max-height:821px;
+    margin: auto 20px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.first-component div #pwd{
+    font-weight: bolder;
+    font-size: 50px;
+    margin: auto;
+}
+.first-component div #pwdDesc{
+    font-size: 18px;
+    font-family: europa, sans-serif;
+}
+.first-component img{
+    background:var(--bgColor);
+    border-radius: 100%;
+    width: 23vw;
+    margin-top: 30px;
+    min-width: 236.891px;
+}
+
+/* Skill Component */
+.skill-component{
+    min-height:821px;
+}
+.skill-component-bg{
+    background-color: var(--bgColor);
+    color: var(--textColor);
+    padding: 5rem 1rem 14rem;
+}
+.skill-component-bg div{
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+    min-width: 273.500px;
+}
+.skill-component-bg div #nameP{
+    font-size: 27px;
+    font-weight: bold;
+}
+.skill-second-component{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    margin-top: -200px;
+}

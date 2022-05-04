@@ -1,8 +1,10 @@
+@import "../../App.css";
+
 .contact-div {
   height: 706px;
 }
 .inner-bar-div {
-  background-color: rgb(43, 174, 102);
+  background-color: var(--bgColor);
   height: 265px;
   margin-top: 250px;
 }

@@ -1,3 +1,5 @@
+@import "../../App.css";
+
 .container-nav {
   position: fixed;
   width: 100vw;
@@ -5,7 +7,7 @@
   background-color: transparent;
 }
 .container-nav.active {
-  background-color: #314618e6;
+  background-color: #2b7a78f0;
 }
 .nav-items {
   list-style-type: none;
@@ -19,19 +21,19 @@
 .item-list {
   margin-right: 25px;
   text-decoration: none;
-  color: #2bae66ff;
+  color: var(--bgColor);
   padding: 0.5rem 1rem;
 }
 .item-list:hover {
-  background-color: #2bae66ff;
+  background-color: var(--bgColor);
   border-radius: 4px;
   transition: all 0.3s ease-out;
-  color: whitesmoke;
+  color: var(--fgColor);
 }
 .item-list.active {
-  background-color: #2bae66ff;
+  background-color: var(--bgColor);
   border-radius: 4px;
-  color: whitesmoke;
+  color: var(--fgColor);
 }
 .menu-icon {
   display: none;
